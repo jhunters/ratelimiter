@@ -30,7 +30,7 @@ func ExampleRateLimiter() {
 		return
 	}
 
-	fmt.Println(cost)
+	fmt.Println(cost) // print cose time in milliseconds
 
 	ok, err := limiter.TryAcquire()
 	if err != nil {

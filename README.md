@@ -1,7 +1,11 @@
 # ratelimiter
 pure golang implments for token bucket
 
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/jhunters/ratelimiter?style=flat-square)](https://goreportcard.com/report/github.com/jhunters/ratelimiter)
+[![Build Status](https://travis-ci.com/jhunters/ratelimiter.svg?branch=main&status=started)](https://travis-ci.org/jhunters/ratelimiter)
+[![codecov](https://codecov.io/gh/jhunters/ratelimiter/branch/main/graph/badge.svg?token=ATQhFv91YP)](https://codecov.io/gh/jhunters/ratelimiter)
+[![Go Reference](https://golang.com.cn/badge/github.com/jhunters/ratelimiter.svg)](https://golang.com.cn/github.com/jhunters/ratelimiter)
+[![LICENSE](https://img.shields.io/github/license/jhunters/ratelimiter.svg?style=flat-square)](https://github.com/jhunters/ratelimiter/blob/master/LICENSE)
 
 ## Usage
 ### Installing 
