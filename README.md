@@ -40,13 +40,13 @@ cost, err := limiter.AcquireBatch(10)
 ```
 
 ```go
-// acquire tokens block unitl it reached
-cost, err := limiter.AcquireBatch(10)
+// try acquire tokens if ready or return false immediately
+permit, err := limiter.TryAcquireBatch(20)
 ```
 
 ```go
 
-// acquire a token with time out
+// try acquire a token with time out
 permit, err := limiter.TryAcquireWithTimeout(100 * time.Millisecond)
 
 ```
