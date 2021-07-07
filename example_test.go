@@ -24,6 +24,7 @@ func ExampleRateLimiter() {
 		return
 	}
 
+	// acquire one token
 	cost, err := limiter.Acquire()
 	if err != nil {
 		fmt.Println(err)
@@ -32,7 +33,7 @@ func ExampleRateLimiter() {
 
 	fmt.Println(cost) // print cose time in milliseconds
 
-	ok, err := limiter.TryAcquire()
+	ok, err := limiter.TryAcquire() // if has no token return false immediately
 	if err != nil {
 		fmt.Println(err)
 		return
